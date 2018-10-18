@@ -1,0 +1,11 @@
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.csprojAssemblyReference.cache
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.Properties.Resources.resources
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.csproj.GenerateResource.cache
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.csproj.CoreCompileInputs.cache
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\bin\Debug\MinimalistToDo.exe.config
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\bin\Debug\MinimalistToDo.exe
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\bin\Debug\MinimalistToDo.pdb
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.exe
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.pdb
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.MinimalToDo.resources
+C:\Users\mkaan\source\repos\MinimalistToDo\MinimalistToDo\obj\Debug\MinimalistToDo.GorevEkle.resources
