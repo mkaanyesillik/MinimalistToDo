@@ -27,7 +27,7 @@ namespace MinimalistToDo
             frm.GorevAciklama = txtGorevAciklama.Text;
             frm.GorevEklenmeSaati = DateTime.Now.Day.ToString() +"/"+ DateTime.Now.Month.ToString()+"/" + DateTime.Now.Year.ToString()+"-" + DateTime.Now.Hour.ToString()+":"+DateTime.Now.Minute.ToString();
             frm.GorevTahminiTamamlamaSaati = txtTahminiTamamlama.Text;
-            XDocument x = XDocument.Load(@"MinimalToDo.xml");
+            XDocument x = XDocument.Load(@"MinimalToDo.kaan");
 
             x.Element("MinimalToDo").Add(
             new XElement("Gorev",
@@ -39,7 +39,7 @@ namespace MinimalistToDo
             new XElement("GorevTahminiTamamlanmaSaati", frm.GorevTahminiTamamlamaSaati)
             ));
             frm.gorevid++;
-            x.Save(@"MinimalToDo.xml");
+            x.Save(@"MinimalToDo.kaan");
             
             this.Close();
         }

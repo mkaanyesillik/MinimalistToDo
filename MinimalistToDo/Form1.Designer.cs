@@ -29,28 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btnGizle = new System.Windows.Forms.Button();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tmrStartPosition = new System.Windows.Forms.Timer(this.components);
             this.tmrGizle = new System.Windows.Forms.Timer(this.components);
             this.btnGorevEkle = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tmrRefresh = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.btnGizleGoser = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnGizle
-            // 
-            this.btnGizle.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btnGizle.AutoEllipsis = true;
-            this.btnGizle.Location = new System.Drawing.Point(0, 220);
-            this.btnGizle.MaximumSize = new System.Drawing.Size(60, 60);
-            this.btnGizle.Name = "btnGizle";
-            this.btnGizle.Size = new System.Drawing.Size(60, 23);
-            this.btnGizle.TabIndex = 0;
-            this.btnGizle.Text = "Gizle";
-            this.btnGizle.UseVisualStyleBackColor = true;
-            this.btnGizle.Click += new System.EventHandler(this.btnGizle_Click);
             // 
             // tmrStartPosition
             // 
@@ -64,10 +52,10 @@
             // 
             // btnGorevEkle
             // 
-            this.btnGorevEkle.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnGorevEkle.Location = new System.Drawing.Point(46, 308);
+            this.btnGorevEkle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnGorevEkle.Location = new System.Drawing.Point(74, 508);
             this.btnGorevEkle.Name = "btnGorevEkle";
-            this.btnGorevEkle.Size = new System.Drawing.Size(355, 39);
+            this.btnGorevEkle.Size = new System.Drawing.Size(520, 39);
             this.btnGorevEkle.TabIndex = 1;
             this.btnGorevEkle.Text = "Görev Ekle";
             this.btnGorevEkle.UseVisualStyleBackColor = true;
@@ -83,41 +71,63 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.GridColor = System.Drawing.Color.Beige;
-            this.dataGridView1.Location = new System.Drawing.Point(66, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(20, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(322, 245);
+            this.dataGridView1.Size = new System.Drawing.Size(575, 454);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // tmrRefresh
             // 
-            this.tmrRefresh.Interval = 4000;
+            this.tmrRefresh.Interval = 1;
             this.tmrRefresh.Tick += new System.EventHandler(this.tmrRefresh_Tick);
             // 
             // button1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button1.Location = new System.Drawing.Point(46, 263);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.button1.Location = new System.Drawing.Point(75, 463);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(355, 39);
+            this.button1.Size = new System.Drawing.Size(520, 39);
             this.button1.TabIndex = 3;
             this.button1.Text = "Seçili Satırı Sil";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnGizleGoser
+            // 
+            this.btnGizleGoser.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnGizleGoser.BackColor = System.Drawing.Color.LightSlateGray;
+            this.btnGizleGoser.Font = new System.Drawing.Font("Noto Serif Lao", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGizleGoser.Location = new System.Drawing.Point(0, 199);
+            this.btnGizleGoser.Name = "btnGizleGoser";
+            this.btnGizleGoser.Size = new System.Drawing.Size(20, 348);
+            this.btnGizleGoser.TabIndex = 4;
+            this.btnGizleGoser.Text = "Gizle/Göster";
+            this.btnGizleGoser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnGizleGoser.Click += new System.EventHandler(this.btnGizle_Click);
+            this.btnGizleGoser.MouseHover += new System.EventHandler(this.btnGizle_MouseHover);
+            // 
             // MinimalToDo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 400);
+            this.ClientSize = new System.Drawing.Size(600, 600);
+            this.Controls.Add(this.btnGizleGoser);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnGorevEkle);
-            this.Controls.Add(this.btnGizle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MinimalToDo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -131,14 +141,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnGizle;
         private System.Windows.Forms.Timer tmrStartPosition;
         private System.Windows.Forms.Timer tmrGizle;
         private System.Windows.Forms.Button btnGorevEkle;
         private System.Windows.Forms.DataGridView dataGridView1;
         public System.Windows.Forms.Timer tmrRefresh;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label btnGizleGoser;
     }
 }
 

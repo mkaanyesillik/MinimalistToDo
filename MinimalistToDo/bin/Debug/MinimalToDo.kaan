@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MinimalToDo>
+  <Gorev>
+    <id>6</id>
+    <GorevAdi>asdfasdfas</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:47</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>1</id>
+    <GorevAdi>asdfas</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>2</id>
+    <GorevAdi>sadfasdf</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>3</id>
+    <GorevAdi>asdfasdf</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>4</id>
+    <GorevAdi>asdfas</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>5</id>
+    <GorevAdi>asdfasf</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>7</id>
+    <GorevAdi>asdfasdf</GorevAdi>
+    <GorevAciklama />
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati />
+  </Gorev>
+  <Gorev>
+    <id>7</id>
+    <GorevAdi>3</GorevAdi>
+    <GorevAciklama></GorevAciklama>
+    <GorevEklenmeSaati>19/10/2018-11:48</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati></GorevTahminiTamamlanmaSaati>
+  </Gorev>
+  <Gorev>
+    <id>8</id>
+    <GorevAdi>asdas</GorevAdi>
+    <GorevAciklama>asdas</GorevAciklama>
+    <GorevEklenmeSaati>19/10/2018-11:56</GorevEklenmeSaati>
+    <GorevTamamlanmaSaati />
+    <GorevTahminiTamamlanmaSaati>asda</GorevTahminiTamamlanmaSaati>
+  </Gorev>
+</MinimalToDo>
